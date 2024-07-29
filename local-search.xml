@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2024/07/29/office%E7%BB%98%E5%9B%BE%E7%BE%8E%E5%8C%96/"/>
+    <url>/2024/07/29/office%E7%BB%98%E5%9B%BE%E7%BE%8E%E5%8C%96/</url>
+    
+    <content type="html"><![CDATA[<h1 id="数模论文插图制作"><a href="#数模论文插图制作" class="headerlink" title="数模论文插图制作"></a>数模论文插图制作</h1><h2 id="主要工具"><a href="#主要工具" class="headerlink" title="主要工具"></a>主要工具</h2><ol><li>PowerPoint：用于美化整理，微调图像（可以把每次做题的图放在同一个ppt文件里）</li><li>Excel：用于处理绘图要用的数据，基础作图</li><li>Python、Matlab：结合代码来作出基础图，美化的话可以先导出为pdf，然后利用Adobe Acrobat导出为ppt获得线条</li></ol><h2 id="常见作图类型"><a href="#常见作图类型" class="headerlink" title="常见作图类型"></a>常见作图类型</h2><h3 id="权重图、热力图"><a href="#权重图、热力图" class="headerlink" title="权重图、热力图"></a>权重图、热力图</h3><h4 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h4><ol><li>将处理好的权重数据，使用Excel的色阶工具着色</li><li>拷贝到PowerPoint中，注意粘贴选项选择保留原格式</li><li>使用PowerPoint调整表格的边框长宽等基础属性</li></ol><h4 id="成品样例"><a href="#成品样例" class="headerlink" title="成品样例"></a>成品样例</h4><p><img src="https://cdn.jsdelivr.net/gh/fufu0615/img_bed@main/img/%E4%BD%BF%E7%94%A8ppt%E5%92%8Cexcel%E7%BB%98%E5%9B%BE/IMG_20240729-212839312.png" alt="图 2">  </p><h3 id="散点图"><a href="#散点图" class="headerlink" title="散点图"></a>散点图</h3><h4 id="步骤-1"><a href="#步骤-1" class="headerlink" title="步骤"></a>步骤</h4><ol><li>将散点数据处理成x, y两列分别代表点的横纵坐标的格式</li><li>使用office自带的散点图标即可做出基础图像</li><li>利用ppt设置散点图坐标和框线的格式，例：主刻度线类型（交叉）、次刻度线类型（内部）</li><li>修改美化散点图点的格式和背景格式，使之更贴合题目</li></ol><h4 id="成品样例-1"><a href="#成品样例-1" class="headerlink" title="成品样例"></a>成品样例</h4><p><img src="https://cdn.jsdelivr.net/gh/fufu0615/img_bed@main/img/office%E7%BB%98%E5%9B%BE%E7%BE%8E%E5%8C%96/IMG_20240729-215353904.png" alt="图 0">  </p><h3 id="着色图表"><a href="#着色图表" class="headerlink" title="着色图表"></a>着色图表</h3><h4 id="步骤-2"><a href="#步骤-2" class="headerlink" title="步骤"></a>步骤</h4><p>主要是对作的基础图进行美化，可以分为两类：</p><ul><li>折线图、线性拟合图（主要是对线条和颜色进行美化）<ol><li>点实：点的颜色设得深一点</li><li>线透明：显得颜色设得稍浅</li><li>色彩对比鲜明：不同线之间使用对比色（用于单一张图）或同色系不同色调（用于多张相似图表，可以每张图使用一种色系）</li></ol></li><li>面积图（主要是在一块面积内填充渐变色来美化）<ol><li>可以利用PowerPoint中的图表设计 -&gt; 更改图表类型 -&gt; 组合图，实现折线图与面积图的搭配</li><li>注意office对于面积图的边缘没有平滑拟合，可能和做出来的折线图有区别</li></ol></li></ul><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul><li>多看优秀论文的作图，学习别人的图表表现方式</li><li>注意色彩搭配，可以参考网上的配色方案</li><li>不要滥用渐变色、阴影、虚线、发光等效果</li></ul><h4 id="成品样例-2"><a href="#成品样例-2" class="headerlink" title="成品样例"></a>成品样例</h4><p><img src="https://cdn.jsdelivr.net/gh/fufu0615/img_bed/img/img/202407292328976.png" alt="图 1"></p><p>未完待续……</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test</title>
     <link href="/2024/07/28/test/"/>
     <url>/2024/07/28/test/</url>
