@@ -19,35 +19,35 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="视频链接：https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;uXY18nzdSsM 什么是Generator $G$是一个network，经过这个 $G$ 可以将一般的分布（正态分布）转化成新的分布 $p_G$ 。尝试使用这种分布去拟合目标数据 $p_{data}$ 的分布，以此来生成类似的数据。 具体来说，可以将目标数据看成从其中采样出的m个data（下图中的$x_1, x_2,">
+    <meta name="description" content="Flow-based Generative Model 笔记视频链接：https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;uXY18nzdSsM 什么是Generator $G$是一个network，经过这个 $G$ 可以将一般的分布（正态分布）转化成新的分布 $p_G$ 。尝试使用这种分布去拟合目标数据 $p_{data}$ 的分布，以此来生成类似的数据。 具体来说，可以将目标数据看">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Flow-based Generative Model 笔记">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/2024/09/16/Flow-based-Generative-Model-%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="视频链接：https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;uXY18nzdSsM 什么是Generator $G$是一个network，经过这个 $G$ 可以将一般的分布（正态分布）转化成新的分布 $p_G$ 。尝试使用这种分布去拟合目标数据 $p_{data}$ 的分布，以此来生成类似的数据。 具体来说，可以将目标数据看成从其中采样出的m个data（下图中的$x_1, x_2,">
+<meta property="og:description" content="Flow-based Generative Model 笔记视频链接：https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v&#x3D;uXY18nzdSsM 什么是Generator $G$是一个network，经过这个 $G$ 可以将一般的分布（正态分布）转化成新的分布 $p_G$ 。尝试使用这种分布去拟合目标数据 $p_{data}$ 的分布，以此来生成类似的数据。 具体来说，可以将目标数据看">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916135738795.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916144126744.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916145838830.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916154119841.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916161742890.png">
-<meta property="og:image" content="c:/Users/fufu/AppData/Roaming/Typora/typora-user-images/image-20240916162644712.png">
+<meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916162644712.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916163604373.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916170333266.png">
-<meta property="og:image" content="c:/Users/fufu/AppData/Roaming/Typora/typora-user-images/image-20240916180511810.png">
+<meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916180511810.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916183351697.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916191153599.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916191239846.png">
 <meta property="og:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916191851858.png">
-<meta property="article:published_time" content="2024-09-16T11:40:45.000Z">
-<meta property="article:modified_time" content="2024-09-16T11:41:25.511Z">
+<meta property="article:published_time" content="2024-09-16T11:40:45.611Z">
+<meta property="article:modified_time" content="2024-09-16T11:43:32.545Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916135738795.png">
   
   
   
-  <title>Flow-based Generative Model 笔记 - Hexo</title>
+  <title>Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -213,7 +213,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Flow-based Generative Model 笔记"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -284,12 +284,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Flow-based Generative Model 笔记</h1>
+            <h1 id="seo-header"></h1>
             
             
               <div class="markdown-body">
                 
-                <p>视频链接：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uXY18nzdSsM">https://www.youtube.com/watch?v=uXY18nzdSsM</a></p>
+                <h1 id="Flow-based-Generative-Model-笔记"><a href="#Flow-based-Generative-Model-笔记" class="headerlink" title="Flow-based Generative Model 笔记"></a>Flow-based Generative Model 笔记</h1><p>视频链接：<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=uXY18nzdSsM">https://www.youtube.com/watch?v=uXY18nzdSsM</a></p>
 <h2 id="什么是Generator"><a href="#什么是Generator" class="headerlink" title="什么是Generator"></a>什么是Generator</h2><p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916135738795.png" srcset="/img/loading.gif" lazyload alt="image-20240916135738795"></p>
 <p>$G$是一个network，经过这个 $G$ 可以将一般的分布（正态分布）转化成新的分布 $p_G$ 。尝试使用这种分布去拟合目标数据 $p_{data}$ 的分布，以此来生成类似的数据。</p>
 <p>具体来说，可以将目标数据看成从其中采样出的m个data（下图中的$x_1, x_2, \cdots, x_m$），$G$ 的优化方向是使输入的数据 $z$ 经过变换后生成的数据 $x^i$ 和训练数据分布最接近，即最大化生成器 $G$ 在数据集 ${x^1, x^2, \cdots, x^m}$ 上的 <strong>对数似然函数</strong> $logP_G(x^i)$。<br>$$<br>G^{*}&#x3D;arg\max_{G}\sum_{i&#x3D;1}^{m}logP_{G}\big(x^{i}\big)\quad{x^{1},x^{2},…,x^{m}\big}\text{from}P_{data}(x)\tag{1}<br>$$</p>
@@ -303,7 +303,7 @@
 <p>拓展到二维，如下图，图中$\Delta x_{ij}$表示$\Delta z_i$改变时$\Delta x_j$的改变量，变换前的矩形部分的积分为$\pi(z’) \Delta z_1 \Delta z_2$，变换后的平行四边形部分的积分为$p(x’)S &#x3D; p(x’)\left|det\begin{bmatrix}\Delta x_{11}&amp;&amp;\Delta x_{21}\\Delta x_{12}&amp;&amp;\Delta x_{22}\end{bmatrix}\right|$，此处用到了上面<strong>行列式的几何意义</strong>：</p>
 <p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916161742890.png" srcset="/img/loading.gif" lazyload alt="image-20240916161742890"></p>
 <p>然后再将得到的式子进行整理：</p>
-<p><img src="C:/Users/fufu/AppData/Roaming/Typora/typora-user-images/image-20240916162644712.png" srcset="/img/loading.gif" lazyload alt="image-20240916162644712"></p>
+<p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916162644712.png" srcset="/img/loading.gif" lazyload alt="image-20240916162644712"></p>
 <p>最终得到上图黄色框的式子，可见将$\pi(z’)$与$p(x’)$之间的差别转换成了$|det(J_{f^{-1}})|$</p>
 <h2 id="Flow-based-Model"><a href="#Flow-based-Model" class="headerlink" title="Flow-based Model"></a>Flow-based Model</h2><h3 id="目标函数"><a href="#目标函数" class="headerlink" title="目标函数"></a>目标函数</h3><p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916163604373.png" srcset="/img/loading.gif" lazyload alt="image-20240916163604373"></p>
 <p>由上面前置知识的推导可得：<br>$$<br>p_{G}(x^{i})&#x3D;\pi(z^{i})|det(J_{G^{-1}})|\z^{i}&#x3D;G^{-1}(x^{i})\tag{4}<br>$$<br>再回到优化Generator上面，式(1)中目标函数$G^*$中的最大对数似然$logP_G(x^i)$可以展开为：<br>$$<br>logp_{G}\big(x^{i}\big)&#x3D;log\pi\left(G^{-1}\big(x^{i}\big)\right)+log|det(J_{G^{-1}})|\tag{5}<br>$$<br>然而要计算上面式子还需解决以下两个难点：</p>
@@ -317,7 +317,7 @@
 <p>但在训练时我们通常是将所有的G看作一个整体进行训练</p>
 <p>从式(5)中可以看出，训练时需要优化的部分就只有$G^{-1}$，训练完成后的$G^{-1}$再取逆变换即可得到用于图像生成的$G$</p>
 <h3 id="Coupling-Layer"><a href="#Coupling-Layer" class="headerlink" title="Coupling Layer"></a>Coupling Layer</h3><p>前面提到，选取的G有讲究：首先它要方便去计算Jacobian矩阵，然后它还需要是可逆的，Coupling Layer就是满足这样条件的Generator。它的结构就如下所示：</p>
-<p><img src="C:/Users/fufu/AppData/Roaming/Typora/typora-user-images/image-20240916180511810.png" srcset="/img/loading.gif" lazyload alt="image-20240916180511810"></p>
+<p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240916180511810.png" srcset="/img/loading.gif" lazyload alt="image-20240916180511810"></p>
 <p>首先将输入分为两个部分：</p>
 <ul>
 <li><p>前半部分$z_1$到$z_d$直接copy作为右边的前半部分$x_1$到$x_d$可。同时前半部分会经过一个F函数和一个H函数分别得到$\beta$序列和$\gamma$序列</p>
@@ -362,7 +362,7 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Flow-based Generative Model 笔记</div>
+      <div></div>
       <div>http://example.com/2024/09/16/Flow-based-Generative-Model-笔记/</div>
     </div>
     <div class="license-meta">
