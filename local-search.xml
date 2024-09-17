@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>原码、反码、补码、移码快速转换</title>
+    <link href="/2024/09/17/%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81%E3%80%81%E7%A7%BB%E7%A0%81%E5%BF%AB%E9%80%9F%E8%BD%AC%E6%8D%A2/"/>
+    <url>/2024/09/17/%E5%8E%9F%E7%A0%81%E3%80%81%E5%8F%8D%E7%A0%81%E3%80%81%E8%A1%A5%E7%A0%81%E3%80%81%E7%A7%BB%E7%A0%81%E5%BF%AB%E9%80%9F%E8%BD%AC%E6%8D%A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><h3 id="机器码"><a href="#机器码" class="headerlink" title="机器码"></a>机器码</h3><p>由符号和数值一起编码表示的二进制数称为<strong>机器数</strong>或<strong>机器码</strong>。以下是一些常见的机器码及其用途：</p><p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20240917201322168.png" alt="image-20240917201322168"></p><h3 id="定点数"><a href="#定点数" class="headerlink" title="定点数"></a>定点数</h3><p><strong>小数点的位置是固定的，约定小数点在某一个位置上</strong>，机器在处理定点数时，并不存储它的小数点；</p><p>定点数常只会用定点数表示<strong>纯小数</strong>或<strong>整数</strong>，当表示纯小数时，小数点约定在<strong>符号位</strong>和数值部分之间，表示整数时，则在数值部分的后面：</p><p><img src="https://fufu-imgsubmit.oss-cn-beijing.aliyuncs.com/img/fixedpoint.png" alt="定点数"></p><h3 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h3><p>前面定点数由于本身性质的限制，难以处理复杂的<strong>非纯小数</strong>和整数，此时就需要浮点数来处理了，浮点数也就是我们平时编程语言中用到的<code>float</code>和<code>double</code>。</p><p>所谓浮点，与定点相对，就是小数点是浮动的，不固定的，它的形式有点像我们熟悉的科学计数法，譬如<code>12.34</code>这个数，可以写成下面几种形式：<br>$$<br>12.34 &#x3D; 1.234\times10^1 &#x3D; 0.1234\times10^2 &#x3D; 1234\times10^{-2}<br>$$<br>后面这三种形式都能表示<code>12.34</code>这个数字，尽管它们的小数点位置各不相同，但因为后面乘了不同的<code>10</code>的幂次方，因此最终结果一致。</p><p>浮点数的标准形式如下，其中，<code>M</code>为尾数，<code>B</code>为基数，<code>E</code>为阶码：<br>$$<br>N &#x3D; M \times B^E<br>$$<br>上面 <code>12.34</code> 的例子是我们熟悉的十进制，轮到二进制时，上面式子中的基数 <code>B</code> 则会变成 <code>2</code> ：<br>$$<br>101.11 &#x3D; 10.111\times2^1 &#x3D; 1.0111\times2^2 &#x3D; 10111\times2^{-2} &#x3D; 0.10111\times2^3 &#x3D; 0.010111\times2^4<br>$$<br>（未完待续~）</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Flow-based Generative Model 笔记</title>
     <link href="/2024/09/16/Flow-based-Generative-Model-%E7%AC%94%E8%AE%B0/"/>
     <url>/2024/09/16/Flow-based-Generative-Model-%E7%AC%94%E8%AE%B0/</url>
